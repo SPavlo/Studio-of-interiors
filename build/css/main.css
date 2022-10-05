@@ -416,6 +416,7 @@ li {
   width: 89.91px;
   height: 1px;
   background: #FFFFFF;
+  margin-left: 15px;
 }
 
 .main-top .main-top__content .slider-btns .line {
@@ -423,6 +424,7 @@ li {
   height: 1px;
   background: #FFFFFF;
   opacity: 0.32;
+  margin-right: 14px;
 }
 
 .main-top .main-top__bottom {
