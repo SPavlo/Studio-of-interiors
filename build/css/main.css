@@ -490,6 +490,73 @@ li {
   margin-left: 41px;
 }
 
+.main-second {
+  background: #FAFAFA;
+}
+
+.main-second .main-second__top {
+  width: 515px;
+  margin-left: 197px;
+  padding-top: 220px;
+}
+
+.main-second .main-second__top h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.main-second .main-second__top p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #080808;
+  opacity: 0.7;
+}
+
+.main-second .main-second__top .desc-first {
+  margin-top: 25px;
+}
+
+.main-second .main-second__top .desc-second {
+  margin-top: 13px;
+}
+
+.main-second .main-second__top .main-second__discover {
+  position: relative;
+  display: inline-block;
+  margin-top: 56px;
+  margin-left: 17px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main-second .main-second__top .main-second__discover:before {
+  content: " ";
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  left: -16px;
+  top: 6px;
+  background: rgba(49, 49, 49, 0.2);
+}
+
+.main-second .main-second__top .main-second__discover:after {
+  content: " ";
+  position: absolute;
+  width: 56px;
+  height: 1px;
+  left: 114px;
+  top: 6px;
+  background: rgba(49, 49, 49, 0.2);
+}
+
 @media (max-width: 1025px) {
   .header {
     margin-left: 54px;
