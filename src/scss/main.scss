@@ -47,3 +47,144 @@ a{
 li{
   list-style: none;
 }
+.main-top{
+  max-width: 1440px;
+  height: 744px;
+  background: url("../images/main-top-back.webp");
+  .main-top__content{
+    position: relative;
+    top: 279px;
+    left: 263px;
+    h1{
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 68px;
+      color: #FFFFFF;
+    }
+    .main-top__desc{
+      position: relative;
+      top: 33px;
+      left: 17px;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 12px;
+      text-align: right;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      &:before{
+        content: " ";
+        position: absolute;
+        width: 8px;
+        height: 1px;
+        left: -16px;
+        top: 6px;
+        background: rgba(255, 255, 255, 0.4);
+      }
+      &:after{
+        content: " ";
+        position: absolute;
+        width: 56px;
+        height: 1px;
+        left: 114px;
+        top: 6px;
+        background: rgba(255, 255, 255, 0.4);
+      }
+    }
+    .slider-btns{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      left: 748px;
+      top: 175px;
+      font-weight: 300;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.06em;
+      color: #FFFFFF;
+      &:before, &:after{
+        content: " ";
+        position: absolute;
+        width: 6px;
+        height: 8px;
+
+
+      }
+      &:before{
+        left: -17px;
+        top: 1px;
+        background: url("../images/main-top-arrowleft.svg");
+      }
+      &:after{
+        right: -21px;
+        top: 0px;
+        background: url("../images/main-top-arrowright.svg");
+      }
+      span{
+        opacity: 0.7;
+      }
+      .line-active{
+        width: 89.91px;
+        height: 1px;
+        background: #FFFFFF;
+      }
+      .line{
+        width: 94.91px;
+        height: 1px;
+        background: #FFFFFF;
+        opacity: 0.32;
+      }
+    }
+  }
+  .main-top__bottom{
+    position: absolute;
+    bottom: 53px;
+    left: 64px;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    .socials{
+      display: flex;
+      gap: 16px;
+    }
+    .select{
+      width: 117px;
+      height: 24px;
+      line-height: 24px;
+      margin-left: 91px;
+      padding-left: 30px;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 1.15336px 1.22544px rgba(0, 0, 0, 0.2), inset 0px -0.288339px 0.0720847px rgba(255, 255, 255, 0.23);
+      backdrop-filter: blur(1px);
+      border-radius: 8.70783px;
+
+      &:before{
+        content: " ";
+        position: absolute;
+        width: 7px;
+        height: 10px;
+        margin-left: -17px;
+        margin-top: 7px;
+        background: url("../images/loc-icon.svg");
+      }
+      &:after{
+        content: " ";
+        position: absolute;
+        width: 9px;
+        height: 6px;
+        margin-top: 10px;
+        margin-left: 28px;
+        background: url("../images/berlin-arrow.svg");
+      }
+    }
+    .phone{
+      margin-left: 41px;
+    }
+
+  }
+}

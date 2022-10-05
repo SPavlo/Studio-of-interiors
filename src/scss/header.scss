@@ -9,6 +9,8 @@
   margin-left: 62px;
   margin-right: 64px;
   margin-top: 24px;
+  margin-bottom: -72px;
+
   .menu-res{
     font-size: 11px;
     letter-spacing: 0.06em;
@@ -51,6 +53,16 @@
       }
       &:hover{
         cursor: pointer;
+      }
+    }
+    .burger-active{
+      margin-top: -3px;
+      &:before{
+        transform: rotate(45deg);
+        top: 7px;
+      }
+      &:after{
+        transform: rotate(-45deg);
       }
     }
     .menu-btn{
