@@ -1,5 +1,6 @@
 @import "header.scss";
 @import "collage.scss";
+@import "lorem.scss";
 
 
 @font-face {
@@ -66,6 +67,8 @@ li{
     position: relative;
     top: 279px;
     left: 263px;
+    width: 600px;
+
     h1{
       font-weight: 700;
       font-size: 56px;
@@ -368,4 +371,9 @@ li{
       }
     }
   }
+}
+.main-fourth{
+  position: relative;
+  background: #FAFAFA;
+  z-index: -3;
 }
