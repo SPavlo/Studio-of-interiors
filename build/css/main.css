@@ -610,6 +610,77 @@ li {
   background: url("../images/main-second-img3.png");
 }
 
+.main-third {
+  background: #000000;
+}
+
+.main-third .main-third__top {
+  padding-top: 140px;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-third .main-third__top h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.main-third .main-third__top p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #828282;
+  margin-top: 31px;
+  margin-bottom: 132px;
+}
+
+.main-third .main-third__content {
+  width: 1314px;
+  margin: 0 auto;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-third .main-third__content .item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+
+.main-third .main-third__content .item5 {
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-third .main-third__content .item5 div {
+  margin-top: -52px;
+}
+
+.main-third .main-third__content .item5 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  color: #080808;
+  margin-bottom: 26px;
+}
+
 @media (max-width: 1025px) {
   .header {
     margin-left: 54px;

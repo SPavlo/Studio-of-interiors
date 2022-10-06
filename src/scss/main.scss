@@ -29,6 +29,16 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@mixin Montserrat300Google{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+@mixin Montserrat700Google{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
 body{
   font-family: Montserrat;
   font-weight: 300;
@@ -298,5 +308,65 @@ li{
     top: 140px;
     background: url("../images/main-second-img3.png");
 
+  }
+}
+.main-third{
+  background: #000000;
+  .main-third__top{
+    padding-top: 140px;
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    h2{
+
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+    }
+    p{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: #828282;
+      margin-top: 31px;
+      margin-bottom: 132px;
+    }
+  }
+  .main-third__content{
+
+    .main-third__content__item{
+    }
+
+    width: 1314px;
+    margin: 0 auto;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    .item3{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      margin-top: -4px;
+      margin-bottom: -4px;
+    }
+    .item5{
+      background: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div{
+        margin-top: -52px;
+      }
+      h3{
+        @include Montserrat700Google;
+        text-align: center;
+        font-size: 22px;
+        line-height: 28px;
+        color: #080808;
+        margin-bottom: 26px;
+      }
+    }
   }
 }
