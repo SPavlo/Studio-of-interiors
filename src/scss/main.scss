@@ -1,4 +1,5 @@
 @import "header.scss";
+@import "collage.scss";
 
 
 @font-face {
@@ -336,15 +337,13 @@ li{
     }
   }
   .main-third__content{
-
-    .main-third__content__item{
-    }
-
     width: 1314px;
     margin: 0 auto;
     display: grid;
     gap: 8px;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 107px;
+
     .item3{
       grid-column-start: 1;
       grid-column-end: 3;
