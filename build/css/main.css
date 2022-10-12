@@ -878,6 +878,106 @@ li {
   z-index: -3;
 }
 
+.main-bottom {
+  background: url("../images/main-bottom-back.png");
+}
+
+.main-bottom .main-bottom__top {
+  margin-left: 194px;
+  padding-top: 119px;
+}
+
+.main-bottom .main-bottom__top h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.main-bottom .main-bottom__top p {
+  margin-top: 13px;
+  width: 390px;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.main-bottom .main-bottom__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 194px;
+  margin-top: 64px;
+}
+
+.main-bottom .main-bottom__content .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 102px;
+}
+
+.main-bottom .main-bottom__content .address .address__item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+}
+
+.main-bottom .main-bottom__content .address .address__item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+.main-bottom .main-bottom__content .address .lviv {
+  margin-left: 10px;
+}
+
+.main-bottom .main-bottom__content .address .kharkiv {
+  margin-left: 38px;
+}
+
+.main-bottom .main-bottom__content .info {
+  position: absolute;
+  top: 4px;
+  right: 15.7%;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.main-bottom .main-bottom__content .info .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+  margin-top: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 1025px) {
   .header {
     margin-left: 54px;
@@ -998,3 +1098,5 @@ li {
 .webp .main-second .img-second { background: url(../images/main-second-img2.webp); }
 
 .webp .main-second .img-third { background: url(../images/main-second-img3.webp); }
+
+.webp .main-bottom { background: url(../images/main-bottom-back.webp); }
