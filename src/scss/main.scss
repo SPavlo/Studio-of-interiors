@@ -1,6 +1,7 @@
 @import "header.scss";
 @import "collage.scss";
 @import "lorem.scss";
+@import "footer.scss";
 
 
 @font-face {
@@ -356,10 +357,11 @@ li{
     .item5{
       background: #FFFFFF;
       display: flex;
+      height: 653px;
       align-items: center;
       justify-content: center;
       div{
-        margin-top: -52px;
+        margin-top: -50px;
       }
       h3{
         @include Montserrat700Google;
@@ -379,8 +381,12 @@ li{
 }
 .main-bottom{
   background: url("../images/main-bottom-back.png");
+  height: 669px;
+  .main-bottom-wrapper{
+    max-width: 1052px;
+    margin: 0 auto;
+  }
   .main-bottom__top{
-    margin-left: 194px;
     padding-top: 119px;
     h2{
       @include Montserrat700Google;
@@ -402,7 +408,6 @@ li{
     display: flex;
     position: relative;
     align-items: center;
-    margin-left: 194px;
     margin-top: 64px;
 
     .address{
@@ -440,7 +445,7 @@ li{
     .info{
       position: absolute;
       top: 4px;
-      right: 15.7%;
+      right: 0;
       font-weight: 600;
       font-size: 11px;
       line-height: 13px;
@@ -448,10 +453,71 @@ li{
       color: #FFFFFF;
       .socials{
         display: flex;
-        gap: 17px;
+        gap: 16px;
         margin-top: 24px;
         align-items: center;
       }
     }
   }
+  .main-bottom__btn{
+    width: 183px;
+    height: 48px;
+    background: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #080808;
+    margin-top: 69px;
+
+  }
+}
+@media (max-width: 1025px) {
+  .main-top{
+    margin-top: 5px;
+    width: 1024px;
+    height: 710px;
+    background: url("../images/main-top-back1024.png");
+    .main-top__content{
+      top: 283px;
+      left: 159px;
+      h1{
+        font-size: 48px;
+        line-height: 59px;
+      }
+      .slider-btns{
+        left: 483px;
+        top: 145px;
+        &:before, &:after{
+          height: 9px;
+        }
+        &:before{
+          top: 2px;
+        }
+        &:after{
+          right: -17px;
+          top: 2px;
+        }
+        .line-active{
+          width: 68.91px;
+        }
+        .line{
+          width: 74.91px;
+        }
+      }
+      .main-top__desc{
+        top: 21.5px;
+      }
+    }
+    .main-top__bottom{
+      bottom: -51px;
+      left: 55px;
+      gap: 40px;
+
+    }
+  }
+
+
 }

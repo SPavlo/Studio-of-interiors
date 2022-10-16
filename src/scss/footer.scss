@@ -1,0 +1,23 @@
+.footer{
+  margin-top: -51px;
+  .footer__content{
+    width: 1311.88px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    .footer__img{
+      width: 80.88px;
+      height: 26px;
+      margin-left: 25px;
+      background: url("../images/footer-img.svg") no-repeat;
+    }
+
+    color: #828282;
+  }
+}
